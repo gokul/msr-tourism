@@ -58,13 +58,13 @@ Synthetic recommendations were constructed for 4 cases, prioritising a different
 
 The respondents were instructed to prioritise the distance from the city centre, price per head and overall ratings first, which reflected a focus on user utility.
 
-![Results for Case 1](/docs/images/TQ1.png|width=500px)
+![Results for Case 1](/images/TQ1.png)
 
 #### Reranking for Increased Provider Utility
 
 In the second case, the utility gain of the providers was prioritised, by sorting the initial data by the price per square foot.
 
-![Results for Case 1](/docs/images/TQ2.png|width=500px)
+![Results for Case 2](/images/TQ2.png)
 
 #### Reranking for Increased City Utility
 
@@ -76,13 +76,13 @@ Next, the utility gain of the society (city) was prioritised by eliminating the 
 - De Baarsjes - Oud-West
 - Oud-Noord
 
-![Results for Case 1](/docs/images/TQ3.png|width=500px)
+![Results for Case 3](/images/TQ3.png)
 
 #### Reranking for Increased System Utility
 
 Finally, the utility gain of the system (simulated irbnb recommender system) was prioritised by sorting the data by the total number of reviews (thereby picking out frequently booked listings).
 
-![Results for Case 1](/docs/images/TQ4.png|width=500px)
+![Results for Case 4](/images/TQ4.png)
 
 
 -
