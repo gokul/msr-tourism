@@ -112,7 +112,7 @@ This section presented the respondents with yes/no questions, as fllows:
 
 #### Users' Views on Multistakeholder Recommender Systems
 
-In this section, users were asned to rate the statements on a 1-5 scale, with 1 being full agreement and 5 being full disagreement.
+In this section, users were asked to rate the statements on a 1-5 scale, with 1 being full agreement and 5 being full disagreement.
 
 - I prefer to use interactive recommender systems for tourism use-cases rather than other sources (friends/family, adverts)
 - As a user, I accept that sometimes other factors will cause the recommender system to show me results that don't perfectly match my requirements.
