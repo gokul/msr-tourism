@@ -181,7 +181,7 @@ Results
 | I prefer to use recommender systems for tourism. | 58 | 26 | 17 |
 | Sometimes my results can be affected by other factors. | 74 | 18 | 9 |
 | Recommender systems should prioritise my needs. | 76 | 13 | 12 |
-| I prefer to use recommender sysI should know when other parties’ interests are affecting my results. | 82 | 14 | 5 |
+| I prefer to use recommender sysI should know when other parties’ interests are affecting my results. | 82 | 14 | 5 |
 | My data can be used to benefit other parties. | 84 | 9 | 9 |
 
 #### Non-functional influences
