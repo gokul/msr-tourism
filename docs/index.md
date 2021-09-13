@@ -27,8 +27,7 @@ Number of fields prior to pre-processing: 89.
 | Host data | 16 |
 | Property data | 11 | 
 | Location data | 17 |
-|  | |
-| Total | 89 |
+| **Total** | **89** |
 
 #### Pre-processing
 
@@ -48,8 +47,7 @@ Once the cleaning and pre-processing steps have taken place, the following field
 | Host data | 2 |
 | Property data | 7 | 
 | Location data | 4 + 1 new |
-|  | |
-| Total | 23 + 3 new |
+| **Total** | **23 + 3 new** |
 
 
 ## Constructing Recommendations
@@ -60,13 +58,13 @@ Synthetic recommendations were constructed for 4 cases, prioritising a different
 
 The respondents were instructed to prioritise the distance from the city centre, price per head and overall ratings first, which reflected a focus on user utility.
 
-![Results for Case 1](/docs/images/TQ1.png | width=500px)
+![Results for Case 1](/docs/images/TQ1.png|width=500px)
 
 #### Reranking for Increased Provider Utility
 
 In the second case, the utility gain of the providers was prioritised, by sorting the initial data by the price per square foot.
 
-![Results for Case 1](/docs/images/TQ2.png | width=500px)
+![Results for Case 1](/docs/images/TQ2.png|width=500px)
 
 #### Reranking for Increased City Utility
 
@@ -78,13 +76,13 @@ Next, the utility gain of the society (city) was prioritised by eliminating the 
 - De Baarsjes - Oud-West
 - Oud-Noord
 
-![Results for Case 1](/docs/images/TQ3.png | width=500px)
+![Results for Case 1](/docs/images/TQ3.png|width=500px)
 
 #### Reranking for Increased System Utility
 
 Finally, the utility gain of the system (simulated irbnb recommender system) was prioritised by sorting the data by the total number of reviews (thereby picking out frequently booked listings).
 
-![Results for Case 1](/docs/images/TQ4.png | width=500px)
+![Results for Case 1](/docs/images/TQ4.png|width=500px)
 
 
 -
