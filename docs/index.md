@@ -2,14 +2,18 @@
 
 This site contains additional resources related to the research "Multistakeholder Recommender Systems in Tourism", untertaken in the Chair of Connected Mobility in the TUM Department of Informatics.
 
-In a nutshell, we defined a set of criteria relevant in stakeholder-aware recommendation in touristic scenarios, and conducted a user study in the form of an online questionnaire to gauge end-users' views on these criteria.
+In this research, we defined a set of criteria relevant in stakeholder-aware recommendation in touristic scenarios, and conducted a user study in the form of an online questionnaire to gauge end-users' views on these criteria.
 
-More information may be found in our paper. 
+More information may be found in our paper. For questions and comments, please contact the authors at `gokul.balakrishnan AT tum.de`
+
+\- Gokul Balakrishnan and Wolfgang Wörndl, Technical University of Munich, Germany.
 
 ### Contents
 
 1. The Dataset
 2. Constructing Recommendations
+3. Opinion Survey
+4. Results
 
 ## The Dataset
 
@@ -52,21 +56,21 @@ Once the cleaning and pre-processing steps have taken place, the following field
 
 ## Constructing Recommendations
 
-Synthetic recommendations were constructed for 4 cases, prioritising a different facet of data in each case.
+Synthetic recommendations were constructed for 4 cases, prioritising a different facet of data in each case. Respondents were asked to rate the applicability of each recommendation based on how helpful/unhelpful they found it (1-5 scale, 1 being most satisfied and 5 being least satisfied).
 
-#### No constraints
+#### Case 1: No Constraints
 
 The respondents were instructed to prioritise the distance from the city centre, price per head and overall ratings first, which reflected a focus on user utility.
 
-![Results for Case 1](/images/TQ1.png)
+![Recommendations for Case 1](/images/TQ1.png)
 
-#### Reranking for Increased Provider Utility
+#### Case 2: Reranking for Increased Provider Utility
 
 In the second case, the utility gain of the providers was prioritised, by sorting the initial data by the price per square foot.
 
-![Results for Case 2](/images/TQ2.png)
+![Recommendations for Case 2](/images/TQ2.png)
 
-#### Reranking for Increased City Utility
+#### Case 3: Reranking for Increased City Utility
 
 Next, the utility gain of the society (city) was prioritised by eliminating the following neighbourhoods from the data, which limits tourist hotspots:
 
@@ -76,43 +80,93 @@ Next, the utility gain of the society (city) was prioritised by eliminating the 
 - De Baarsjes - Oud-West
 - Oud-Noord
 
-![Results for Case 3](/images/TQ3.png)
+![Recommendations for Case 3](/images/TQ3.png)
 
-#### Reranking for Increased System Utility
+#### Case 4: Reranking for Increased System Utility
 
 Finally, the utility gain of the system (simulated irbnb recommender system) was prioritised by sorting the data by the total number of reviews (thereby picking out frequently booked listings).
 
-![Results for Case 4](/images/TQ4.png)
+![Recommendations for Case 4](/images/TQ4.png)
 
+## Opinion Survey
 
--
+The following is a list of questions posed to the respondents of the survey in addition to rating the reranked recommendations.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Nature of rerankings
 
-```markdown
-Syntax highlighted code block
+* The first recommendation you saw before was the best fit for your needs.
+* The second set was reranked to the rental providers' benefit.
+* The third set was made to fit the needs of the City of Amsterdam (avoiding tourist hotspots).
+* The fourth set was done to show you the most frequented AirBnBs.
 
-# Header 1
-## Header 2
-### Header 3
+**If you had known the reasons for these rerankings, would it have affected your choices in any way?**
 
-- Bulleted
-- List
+#### User Experience 
 
-1. Numbered
-2. List
+This section presented the respondents with yes/no questions, as fllows:
 
-**Bold** and _Italic_ and `Code` text
+- Have you ever considered a computer-based recommender system when planning travel (e.g. TripAdvisor)?
+- Have you ever considered a computer-based system when looking for MULTI-PARTICIPANT travel (e.g. group travel) recommendations ?
+- Do you trust travel recommender systems to give accurate results in a group travel scenario?
+- Are you aware that in many recommender systems, interest of other parties (e.g. hotel companies) affect the recommendations displayed as "Top Results" or "Recommended"?
 
-[Link](url) and ![Image](src)
-```
+#### Users' Views on Multistakeholder Recommender Systems
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+In this section, users were asned to rate the statements on a 1-5 scale, with 1 being full agreement and 5 being full disagreement.
 
-### Jekyll Themes
+- I prefer to use interactive recommender systems for tourism use-cases rather than other sources (friends/family, adverts)
+- As a user, I accept that sometimes other factors will cause the recommender system to show me results that don't perfectly match my requirements.
+- As a user, I believe that a recommender system should prioritise *my* needs over other parties such as rental providers etc.
+- I believe that a recommender system should tell me when interests of other parties are taken into account when giving me choices.
+- I am OK with the data I provide for recommendation being used for improving the recommendations of other users like me, as well as benefit other parties.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gokul/msr-tourism/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+#### Non-functional influences
 
-### Support or Contact
+Similar to the previous section, respondents were offered a 1-5 scale to rate their agreement/disagreement with the following statements:
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- I want recommender systems to take care of local restrictions when planning travel (e.g. if local law prohibits stays longer than 5 days, such options must not be shown).
+- I am comfortable with tourist recommender systems taking care of changes coming from seasonal factors (like price drops), rather than do it manually myself.
+- I want tourist recommender systems to warn me when there are unforeseen events happening in my destination (e.g. pandemic, war).
+
+##Results
+
+This section contains the results from the user study. For a full discourse on the nature of the results, please see our paper.
+
+### Reranking Airbnb Listings
+#### Case 1: No Constraints
+Results
+
+![Results for Case 1](/images/res_case1.png)
+
+Word cloud
+
+![Word Cloud for Case 1](/images/WC1.png)
+#### Case 2: Reranking for Increased Provider Utility
+Results
+
+![Results for Case 2](/images/res_case2.png)
+
+Word cloud
+
+![Word Cloud for Case 2](/images/WC2.png)
+#### Case 3: Reranking for Increased City Utility
+Results
+
+![Results for Case 3](/images/res_case3.png)
+
+Word cloud
+
+![Word Cloud for Case 3](/images/WC3.png)
+#### Case 4: Reranking for Increased System Utility
+Results
+
+![Results for Case 4](/images/res_case4.png)
+
+Word cloud
+
+![Word Cloud for Case 4](/images/WC4.png)
+
+### Opinion Survey
+#### User Experience 
+#### Users' Views on Multistakeholder Recommender Systems
+#### Non-functional influences
