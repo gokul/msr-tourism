@@ -128,7 +128,7 @@ Similar to the previous section, respondents were offered a 1-5 scale to rate th
 - I am comfortable with tourist recommender systems taking care of changes coming from seasonal factors (like price drops), rather than do it manually myself.
 - I want tourist recommender systems to warn me when there are unforeseen events happening in my destination (e.g. pandemic, war).
 
-##Results
+## Results
 
 This section contains the results from the user study. For a full discourse on the nature of the results, please see our paper.
 
@@ -166,7 +166,24 @@ Word cloud
 
 ![Word Cloud for Case 4](/images/WC4.png)
 
+#### Summary: Reranking Recommendations
+
+![Overall Results for Reranking](/images/res_full.png)
+
 ### Opinion Survey
 #### User Experience 
+Results
+
+![Results for User Experience](/images/res_exp.png)
 #### Users' Views on Multistakeholder Recommender Systems
+| Question (abridged) | Agreement | Neutral | Disagreement |
+| --------------- | --------------- | --------------- | --------------- |
+| I prefer to use recommender systems for tourism. | 58 | 26 | 17 |
+| Sometimes my results can be affected by other factors. | 74 | 18 | 9 |
+| Recommender systems should prioritise my needs. | 76 | 13 | 12 |
+| I prefer to use recommender sysI should know when other parties’ interests are affecting my results. | 82 | 14 | 5 |
+| My data can be used to benefit other parties. | 84 | 9 | 9 |
+
 #### Non-functional influences
+
+![Non-functional](/images/res_nonfunc.png)
